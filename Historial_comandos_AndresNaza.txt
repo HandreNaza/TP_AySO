@@ -1,0 +1,7 @@
+history -a
+cat $HOME/.bash_history
+cp ~/.bash_history ./Historial_comandos_AndresNaza.txt
+git commit -m “ADD: Historial Comando” 
+cd ~/repogit/TP_AySO
+git status
+history -a
